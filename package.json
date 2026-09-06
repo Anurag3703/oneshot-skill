@@ -1,12 +1,13 @@
 {
-  "name": "@bmw/bti-skill",
+  "name": "bti-skill",
   "version": "1.0.0",
   "description": "BMW TechWorks India (BTI) Copilot Skill Installer",
   "bin": {
-    "bti-skill": "./bin/cli.js"
+    "bti-skill": "bin/cli.js"
   },
-  "scripts": {
-    "postinstall": "node ./bin/cli.js oneshot"
+  "repository": {
+    "type": "git",
+    "url": "https://bmw.ghe.com/Anurag-TA-Tiwari/contextual-prompt-generator.git"
   },
   "files": [
     "bin",
