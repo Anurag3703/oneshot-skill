@@ -70,5 +70,12 @@ else
 fi
 
 ARGS=()
-[[ "$WITH_ORG" == "1" ]] && ARGS+=(--with-org)
-bash "$SKILL/scripts/install.sh" "${ARGS[@]}"
+if [[ "$WITH_ORG" == "1" ]]; then
+  ARGS+=(--with-org)
+fi
+
+if [[ ${#ARGS[@]} -gt 0 ]]; then
+  bash "$SKILL/scripts/install.sh" "${ARGS[@]}"
+else
+  bash "$SKILL/scripts/install.sh"
+fi
