@@ -1,6 +1,6 @@
 {
   "name": "oneshot-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-shot execution skill for GitHub Copilot",
   "bin": {
     "oneshot-skill": "bin/cli.js"
