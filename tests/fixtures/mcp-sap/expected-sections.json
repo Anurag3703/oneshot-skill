@@ -1,0 +1,21 @@
+{
+  "id": "mcp-sap",
+  "task_type": "agent",
+  "required_headings": [
+    "Objective",
+    "Execution Steps",
+    "Validation",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    ["MCP"],
+    ["inspect", "existing", "repository", "repo"],
+    ["test", "tests"],
+    ["auth", "authentication", "authorization"]
+  ],
+  "forbidden_phrases": [
+    "make it good",
+    "follow best practices",
+    "handle everything"
+  ]
+}

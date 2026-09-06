@@ -1,0 +1,20 @@
+{
+  "id": "debugging-500",
+  "task_type": "debugging",
+  "required_headings": [
+    "Objective",
+    "Execution Steps",
+    "Validation",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    ["reproduce", "reproduction"],
+    ["root cause", "root-cause"],
+    ["regression"]
+  ],
+  "forbidden_phrases": [
+    "make it good",
+    "follow best practices",
+    "handle everything"
+  ]
+}

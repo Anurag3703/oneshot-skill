@@ -1,0 +1,30 @@
+{
+  "id": "hr-policy",
+  "task_type": "process",
+  "required_headings": [
+    "Objective",
+    "Execution Steps",
+    "Validation",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    [
+      "policy",
+      "remote"
+    ],
+    [
+      "review",
+      "human"
+    ],
+    [
+      "audience",
+      "manager"
+    ]
+  ],
+  "forbidden_phrases": [
+    "make it good",
+    "handle everything",
+    "this is legal advice",
+    "certified legal"
+  ]
+}

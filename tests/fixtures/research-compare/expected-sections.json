@@ -1,0 +1,19 @@
+{
+  "id": "research-compare",
+  "task_type": "research",
+  "required_headings": [
+    "Objective",
+    "Execution Steps",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    ["Snowflake"],
+    ["BigQuery"],
+    ["Databricks"],
+    ["cost", "performance", "scale"]
+  ],
+  "forbidden_phrases": [
+    "make it good",
+    "handle everything"
+  ]
+}

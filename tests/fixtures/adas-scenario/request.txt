@@ -1,0 +1,1 @@
+Generate a prompt for an agent to add a timeout fallback when camera frames stop arriving in our perception pipeline.

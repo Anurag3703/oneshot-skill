@@ -1,0 +1,1 @@
+Compare Snowflake, BigQuery and Databricks for analyzing billions of orders.

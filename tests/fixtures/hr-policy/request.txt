@@ -1,0 +1,1 @@
+Turn this into an agent prompt: draft a remote-work eligibility policy outline for managers.

@@ -1,0 +1,1 @@
+Create an executable prompt to build a simple quarterly revenue forecast comparison from the inputs I will provide.

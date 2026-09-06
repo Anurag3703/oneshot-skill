@@ -1,0 +1,18 @@
+{
+  "id": "ambiguous-faster",
+  "task_type": "ambiguous",
+  "required_headings": [
+    "Objective",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    ["Assumptions", "assumption", "measurable", "Blocking clarification", "baseline", "metric", "latency", "throughput"]
+  ],
+  "forbidden_phrases": [
+    "optimize everything",
+    "make it good",
+    "follow best practices",
+    "handle everything"
+  ],
+  "notes": "Must either state a measurable target/assumption or a blocking clarification — not a generic optimization essay."
+}

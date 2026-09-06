@@ -1,0 +1,11 @@
+{
+  "id": "design-brief",
+  "task_type": "writing",
+  "required_headings": ["Objective", "Execution Steps", "Validation", "Definition of Done"],
+  "required_keywords_any": [
+    ["design", "UI", "empty state", "settings"],
+    ["accessibility", "a11y", "accessible"],
+    ["audience", "user", "states"]
+  ],
+  "forbidden_phrases": ["make it good", "follow best practices", "handle everything"]
+}

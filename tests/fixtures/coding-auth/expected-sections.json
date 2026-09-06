@@ -1,0 +1,21 @@
+{
+  "id": "coding-auth",
+  "task_type": "coding",
+  "required_headings": [
+    "Objective",
+    "Execution Steps",
+    "Validation",
+    "Definition of Done"
+  ],
+  "required_keywords_any": [
+    ["inspect", "repository", "repo"],
+    ["test", "tests"],
+    ["auth", "authentication"]
+  ],
+  "forbidden_phrases": [
+    "make it good",
+    "follow best practices",
+    "handle everything"
+  ],
+  "must_not_invent": true
+}

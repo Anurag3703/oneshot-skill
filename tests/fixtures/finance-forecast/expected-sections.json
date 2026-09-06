@@ -1,0 +1,11 @@
+{
+  "id": "finance-forecast",
+  "task_type": "analysis",
+  "required_headings": ["Objective", "Execution Steps", "Validation", "Definition of Done"],
+  "required_keywords_any": [
+    ["forecast", "revenue", "quarter"],
+    ["assumption", "Assumptions"],
+    ["formula", "input", "metric"]
+  ],
+  "forbidden_phrases": ["make it good", "handle everything"]
+}

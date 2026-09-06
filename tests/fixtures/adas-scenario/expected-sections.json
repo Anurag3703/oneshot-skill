@@ -1,0 +1,11 @@
+{
+  "id": "adas-scenario",
+  "task_type": "coding",
+  "required_headings": ["Objective", "Execution Steps", "Validation", "Definition of Done"],
+  "required_keywords_any": [
+    ["inspect", "repository", "repo", "pipeline"],
+    ["timeout", "fallback", "camera", "frame"],
+    ["test", "scenario", "failure"]
+  ],
+  "forbidden_phrases": ["make it good", "ASIL certified", "handle everything", "ISO 26262 certified"]
+}
