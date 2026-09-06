@@ -1,0 +1,27 @@
+{
+  "name": "@bmw/bti-skill",
+  "version": "1.0.0",
+  "description": "BMW TechWorks India (BTI) Copilot Skill Installer",
+  "bin": {
+    "bti-skill": "./bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/cli.js oneshot"
+  },
+  "files": [
+    "bin",
+    "SKILL.md",
+    "README.md",
+    "references",
+    "scripts"
+  ],
+  "keywords": [
+    "copilot",
+    "skills",
+    "bmw",
+    "bti",
+    "one-shot"
+  ],
+  "author": "Anurag Tiwari <Anurag.TA.Tiwari@bti.bmwgroup.com>",
+  "license": "UNLICENSED"
+}
