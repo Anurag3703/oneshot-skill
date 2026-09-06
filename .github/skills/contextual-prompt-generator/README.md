@@ -1,18 +1,13 @@
-# bti-skill / contextual-prompt-generator
+# contextual-prompt-generator
 
-BMW TechWorks India (BTI) Copilot Agent Skill that compiles a natural-language task plus relevant repository context into a dense, execution-ready plan and executes it in one shot.
+Production-oriented Copilot Agent Skill that compiles a natural-language task plus relevant context into a dense, execution-ready prompt for another AI agent.
 
 **Version:** see `metadata.version` in `SKILL.md` (currently 2.2.0).
 
-## ⚡ Quick Install (One-Liner)
+## Install (like npm install)
 
-### Method 1: Using `bti-skill` CLI (Recommended for BMW TechWorks)
-```bash
-GH_HOST=bmw.ghe.com gh api /repos/Anurag-TA-Tiwari/contextual-prompt-generator/contents/scripts/bti-skill -H "Accept: application/vnd.github.raw" > ~/bin/bti-skill && chmod +x ~/bin/bti-skill
-bti-skill oneshot
-```
+**After the skill is on GitHub / GitHub Enterprise** (testers need nothing copied first):
 
-### Method 2: Direct One-Liner
 ```bash
 GH_HOST=bmw.ghe.com gh api /repos/Anurag-TA-Tiwari/contextual-prompt-generator/contents/scripts/install-remote.sh -H "Accept: application/vnd.github.raw" | bash
 ```
