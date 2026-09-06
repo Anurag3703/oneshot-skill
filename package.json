@@ -1,9 +1,13 @@
 {
-  "name": "bti-skill",
+  "name": "oneshot-skill",
   "version": "1.0.0",
-  "description": "BMW TechWorks India (BTI) Copilot Skill Installer",
+  "description": "One-shot execution skill for GitHub Copilot",
   "bin": {
-    "bti-skill": "bin/cli.js"
+    "oneshot-skill": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anurag3703/oneshot-skill.git"
   },
   "files": [
     "bin",
@@ -14,11 +18,11 @@
   ],
   "keywords": [
     "copilot",
-    "skills",
-    "bmw",
-    "bti",
-    "one-shot"
+    "copilot-skill",
+    "ai-agent",
+    "one-shot",
+    "prompt-engineering"
   ],
-  "author": "Anurag Tiwari <Anurag.TA.Tiwari@bti.bmwgroup.com>",
+  "author": "Anurag Tiwari",
   "license": "MIT"
 }
