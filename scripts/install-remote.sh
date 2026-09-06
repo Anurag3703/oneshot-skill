@@ -8,7 +8,7 @@
 set -euo pipefail
 
 DEFAULT_HOST="${DEFAULT_HOST:-bmw.ghe.com}"
-DEFAULT_REPO="${DEFAULT_REPO:-CDBase/bti-skill}"
+DEFAULT_REPO="${DEFAULT_REPO:-Anurag-TA-Tiwari/contextual-prompt-generator}"
 
 HOST="${HOST:-$DEFAULT_HOST}"
 REPO="${REPO:-$DEFAULT_REPO}"

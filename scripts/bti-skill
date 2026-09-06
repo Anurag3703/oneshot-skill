@@ -9,7 +9,7 @@
 set -euo pipefail
 
 HOST="${GH_HOST:-bmw.ghe.com}"
-ORG_OR_USER="${BTI_SKILL_ORG:-CDBase}"
+ORG_OR_USER="${BTI_SKILL_ORG:-Anurag-TA-Tiwari}"
 COPILOT_SKILLS_DIR="$HOME/.copilot/skills"
 GITHUB_SKILLS_DIR="$HOME/.github/skills"
 
