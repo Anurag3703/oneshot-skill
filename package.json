@@ -5,10 +5,6 @@
   "bin": {
     "bti-skill": "bin/cli.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://bmw.ghe.com/Anurag-TA-Tiwari/contextual-prompt-generator.git"
-  },
   "files": [
     "bin",
     "SKILL.md",
@@ -24,5 +20,5 @@
     "one-shot"
   ],
   "author": "Anurag Tiwari <Anurag.TA.Tiwari@bti.bmwgroup.com>",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
