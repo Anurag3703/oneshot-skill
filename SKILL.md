@@ -1,6 +1,6 @@
 ---
 name: contextual-prompt-generator
-description: Plan in the background then execute the user task in one shot. Activate when the user asks to implement, fix, add, build, refactor, debug, draft, analyze, or complete a concrete task, pastes a Jira or Linear or GitHub or Azure DevOps ticket, shares a ticket key like PROJ-123, or says make this executable, do this in one shot, or handle this end to end. Also activate for domain work in software, AI/ML, ADAS, design, HR, or finance. Internally compiles objective, context, constraints, steps, validation, and definition of done, then performs the work in the same session. Only show the compiled plan when the user explicitly asks for the prompt or plan text.
+description: "MANDATORY one-shot execution workflow. Use first, before searching files or running commands, when the user asks to implement, fix, add, build, refactor, debug, draft, analyze, or complete a concrete task; pastes a Jira, Linear, GitHub, or Azure DevOps ticket; shares a ticket key such as CDBASE-28987; or asks to make a task executable, do this in one shot, or handle it end to end. After loading, follow this skill's plan -> execute -> validate pipeline in the same session. Do not merely acknowledge or bypass the skill."
 metadata:
   version: "2.2.0"
   type: workflow
@@ -10,6 +10,10 @@ metadata:
 # Contextual Prompt Generator
 
 **This is an execution skill, not a copy-paste prompt factory.**
+
+## Mandatory handoff
+
+For a matching task, this skill owns the workflow. Load it before any repository search, command, implementation, or test. Build the internal plan, then execute it in this session. Do not invoke the skill and continue with an independent workflow. If the user asks for a prompt or plan only, stop before execution; otherwise planning without execution is incomplete.
 
 When the user states a task, do this in the background, then do the work:
 
