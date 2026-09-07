@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
+const childProcess = require('child_process');
 
 const homedir = os.homedir();
 const packageRoot = path.resolve(__dirname, '..');
@@ -67,8 +68,34 @@ function installSkill() {
       console.warn(`Warning: Could not write to ${parentDir}:`, err.message);
     }
   }
+  installProjectInstructions();
   console.log('\n✅ Installation complete!');
   console.log('👉 Open a new Copilot Chat session in VS Code to use it.\n');
+}
+
+function installProjectInstructions() {
+  let projectRoot;
+  try {
+    projectRoot = childProcess.execFileSync('git', ['rev-parse', '--show-toplevel'], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore']
+    }).trim();
+  } catch {
+    return;
+  }
+
+  const source = path.join(packageRoot, '.github', 'copilot-instructions.md');
+  if (!fs.existsSync(source)) return;
+
+  const destinationDir = path.join(projectRoot, '.github');
+  const destination = path.join(destinationDir, 'copilot-instructions.md');
+  fs.mkdirSync(destinationDir, { recursive: true });
+  if (!fs.existsSync(destination)) {
+    fs.copyFileSync(source, destination);
+    console.log(`✓ Added project routing instructions to ${destination}`);
+  } else {
+    console.log(`✓ Project routing instructions already present at ${destination}`);
+  }
 }
 
 function listSkills() {
